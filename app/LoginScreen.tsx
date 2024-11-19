@@ -24,7 +24,7 @@ const LoginScreen = () => {
 
   useEffect(() => {
     if (status === 'authenticated') {
-      router.replace('/ProductScreen');
+      router.replace('/(app)');
     }
   }, [status])
 
